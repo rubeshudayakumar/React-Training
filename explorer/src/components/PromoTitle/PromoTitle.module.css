@@ -1,0 +1,33 @@
+.promoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+}
+
+.welcomeTitle{
+    margin-top: 150px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #9B5381;
+}
+
+.quote{
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 75px;
+    color: #7A1655;
+}
+
+.chooseOption{
+    color: #BEBEBE;
+}
+
+.selectCity{
+    border: 1px solid #000;
+    color: #000;
+    width: 760px;
+    height: 70px;
+    margin-top: 70px;
+    padding: 0 20px;
+    font-size: 18px;
+}

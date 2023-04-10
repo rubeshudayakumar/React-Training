@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 32px 0;
+    margin: 0 auto;
+    color: #7A1655;
+}
+
+.header img{
+    width: 140px;
+}
+
+.header ul{
+    display: flex;
+    column-gap: 56px;
+    list-style-type: none;
+    font-weight: 600;
+}
+

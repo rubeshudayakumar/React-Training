@@ -1,0 +1,10 @@
+.imageContainer{
+    position: absolute;
+    z-index: -1;
+    width: 57%;
+    right: 0;
+}
+
+.image{
+    width: 100%;
+}
