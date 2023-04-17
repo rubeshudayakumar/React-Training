@@ -1,0 +1,39 @@
+.touristPlaceCard{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    margin: calc(9% / 6);
+    padding-bottom: 86px;
+    width: calc(91% / 3);
+}
+.touristPlaceImage{
+    width: 100%;
+}
+.quoteAboutThePlace{
+    font-weight: 200;
+    font-size: 38px;
+    padding: 10px 0px;
+}
+.placeName{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+.placeDescription{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    height: 265px;
+    overflow: hidden;
+}
+.readMoreButton{
+    background-color: #840057;
+    color: white;
+    display: inline-block;
+    padding: 14px 25px;
+    margin-top: 25px;
+    border: none;
+    font-size: 19px;
+    font-weight: 250;
+}
