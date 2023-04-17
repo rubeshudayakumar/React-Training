@@ -1,0 +1,13 @@
+.button{
+    display: inline-block;
+    padding: 14px 25px;
+    margin-top: 25px;
+    border: none;
+    width: fit-content;
+    font-size: 19px;
+    font-weight: 500;
+    background-color: #840057;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}

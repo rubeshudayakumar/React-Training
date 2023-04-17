@@ -1,0 +1,27 @@
+.DetailPromoTitleContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+.placeName{
+    margin-top: 200px;
+    font-size: 82px;
+    font-weight: 200;
+    color: #7A1655;
+}
+
+.placeQuote{
+    margin-top: 32px;
+    padding: 70px;
+    font-size: 60px;
+    line-height: 1.5;
+    background-color: #7A1655;
+    color: #fff;
+}
+
+.degreeCelcius{
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 60px;
+}
