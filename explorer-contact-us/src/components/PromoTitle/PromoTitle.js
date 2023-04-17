@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext} from "react";
 import styles from "./PromoTitle.module.css";
 import Button from "../Button/Button";
+import {PlaceContext} from "../../App";
 
 const PromoTitle = () => {
-    const [places,setPlaces] = useState([]) ;
-    useEffect(() => {
-        const fetchPlaces = async () => {
-            const response = await fetch('https://nijin-server.vercel.app/api/explorer');
-            return await response.json();
-        }
-        fetchPlaces().then((responseData) => {
-            setPlaces(responseData);
-        });
-    },[]);
+    const places = useContext(PlaceContext);
 
     const onExploreClick = () => {
         console.log("Explore button clicked!");
